@@ -1,0 +1,81 @@
+
+html, body {
+	margin: 0px;
+	height: 100%;
+}
+/*
+body {
+
+	background-image: url(bgi.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	
+	display: flex;
+	flex-wrap : wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center; 
+
+}
+
+li {
+	list-style: none;
+}
+
+*/
+
+header.startup {
+  background-position: center;
+  background-image: url("bgi.jpeg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+
+/*.btn {
+	border-radius: 50px;
+	background-color: rgba(170,57,57,0.8);
+	border: 2px rgba(170,57,57,0.8);
+} */
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: rgba(169,21,21,0.8);
+  border-color: rgba(169,21,21,0.8); 
+}
+
+/*.btn:hover {
+	border-radius: 50px;
+	background-color: rgba(170,57,57,0.8);
+	border: 2px rgba(170,57,57,0.8);
+}*/
+
+.btn-primary:hover {
+  background-color: #A90000;
+  border-color: #A90000;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+/*.main-title {
+	color: white;
+}*/
